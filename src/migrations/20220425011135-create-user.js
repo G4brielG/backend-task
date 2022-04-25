@@ -8,14 +8,14 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER(5)
       },
-      firstName: {
+      nombre: {
         type: Sequelize.STRING(20)
       },
-      lastName: {
+      usuario: {
         type: Sequelize.STRING(20)
       },
-      email: {
-        type: Sequelize.STRING(30)
+      activo: {
+        type: Sequelize.BOOLEAN
       },
       createdAt: {
         allowNull: false,

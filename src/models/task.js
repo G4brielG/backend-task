@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   task.init({
-    descripcion: DataTypes.STRING(20),
+    descripcion: DataTypes.STRING(50),
     estado: DataTypes.BOOLEAN,
     nivel: DataTypes.INTEGER(1),
     user_id: DataTypes.INTEGER(5)

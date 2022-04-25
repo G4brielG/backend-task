@@ -17,6 +17,7 @@ app.set('port', process.env.PORT || 4000);
 
 // Routes
 app.use('/users', require('./routes/users.routes'))
+app.use('/tasks', require('./routes/tasks.routes'))
 
 // Run server
 app.listen(app.get('port'), async () => {

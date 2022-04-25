@@ -9,7 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER(5)
       },
       descripcion: {
-        type: Sequelize.STRING(20)
+        type: Sequelize.STRING(50)
       },
       estado: {
         type: Sequelize.BOOLEAN
