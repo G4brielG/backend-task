@@ -16,13 +16,12 @@ module.exports = (sequelize, DataTypes) => {
           as: 'user',
           foreignKey: 'user_id'
         }
-        )
+      )
     }
   }
   task.init({
     descripcion: DataTypes.STRING(50),
     estado: DataTypes.BOOLEAN,
-    nivel: DataTypes.INTEGER(1),
     user_id: DataTypes.INTEGER(5)
   }, {
     sequelize,

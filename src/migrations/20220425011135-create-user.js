@@ -8,9 +8,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER(5)
       },
-      nombre: {
-        type: Sequelize.STRING(20)
-      },
       usuario: {
         type: Sequelize.STRING(20)
       },

@@ -14,9 +14,6 @@ module.exports = {
       estado: {
         type: Sequelize.BOOLEAN
       },
-      nivel: {
-        type: Sequelize.INTEGER(1)
-      },
       user_id: {
         type: Sequelize.INTEGER(5),
         allowNull: true,
